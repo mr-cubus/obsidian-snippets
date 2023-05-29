@@ -1,0 +1,55 @@
+/*
+.cm-header-XXX:not(.cm-formatting):not(.cm-inline-code) is for the editor
+hXXX is for the preview
+*/
+
+/* increase margins above and below the heading */ 
+.cm-header-1:not(.cm-formatting):not(.cm-inline-code), h1,
+.cm-header-2:not(.cm-formatting):not(.cm-inline-code), h2,
+.cm-header-3:not(.cm-formatting):not(.cm-inline-code), h3,
+.cm-header-4:not(.cm-formatting):not(.cm-inline-code), h4,
+.cm-header-5:not(.cm-formatting):not(.cm-inline-code), h5,
+.cm-header-6:not(.cm-formatting):not(.cm-inline-code), h6
+{
+  display: inline-block;
+  margin-top: 30pt;
+  margin-bottom: 20pt;
+}
+
+/* indicate the heading level using a small indicator */
+.cm-header-1:not(.cm-formatting):not(.cm-inline-code)::before, h1::before
+{
+  content: 'H1 '; 
+  font-size: 12px;
+  color: var(--text-faint);
+}
+.cm-header-2:not(.cm-formatting):not(.cm-inline-code)::before, h2::before
+{
+  content: 'H2 '; 
+  font-size: 12px;
+  color: var(--text-faint);
+}
+.cm-header-3:not(.cm-formatting):not(.cm-inline-code)::before, h3::before
+{
+  content: 'H3 '; 
+  font-size: 12px;
+  color: var(--text-faint)
+}
+.cm-header-4:not(.cm-formatting):not(.cm-inline-code)::before, h4::before
+{
+  content: 'H4 '; 
+  font-size: 12px;
+  color: var(--text-faint)
+}
+.cm-header-5:not(.cm-formatting):not(.cm-inline-code)::before, h5::before
+{
+  content: 'H5 '; 
+  font-size: 12px;
+  color: var(--text-faint)
+}
+.cm-header-6:not(.cm-formatting):not(.cm-inline-code)::before, h6::before
+{
+  content: 'H6 '; 
+  font-size: 12px;
+  color: var(--text-faint)
+}
