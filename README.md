@@ -9,12 +9,16 @@ This repo contains css-snippets I use to make my obsidian a little bit prettier
 
 Before:
 
-<img src="resources/img_before.png" style="max-width: 50%; height: auto; border: 1px solid black;">
-
+<p align="center">
+<img src="resources/img_after.png" width="50%">
+</p>
+  
 After:
 
-<img src="resources/img_after.png" style="max-width: 50%; height: auto; border: 1px solid black;">
-
+<p align="center">
+<img src="resources/img_after.png" width="50%">
+</p>
+  
 ## How to install:
 
 Download the CSS-Files and copy them to the snippets directory inside your vault.
