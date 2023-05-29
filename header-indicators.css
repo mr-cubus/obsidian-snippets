@@ -1,0 +1,58 @@
+/*
+Define the style
+*/
+.HyperMD-header:not(.cm-active) .cm-header::before,
+h1::before,
+h2::before,
+h3::before,
+h4::before,
+h5::before,
+h6::before
+{
+    font-size: 12px;
+    color: var(--text-faint);
+}
+
+/*
+define the content
+*/
+.HyperMD-header-1:not(.cm-active) .cm-header::before,
+h1::before
+{
+    content: "H1 ";
+}
+.HyperMD-header-2:not(.cm-active) .cm-header::before,
+h2::before
+{
+    content: "H2 "
+}
+.HyperMD-header-3:not(.cm-active) .cm-header::before,
+h3::before
+{
+    content: "H3 "
+}
+.HyperMD-header-4:not(.cm-active) .cm-header::before,
+h4::before
+{
+    content: "H4 "
+}
+.HyperMD-header-5:not(.cm-active) .cm-header::before,
+h5::before
+{
+    content: "H5 "
+}
+.HyperMD-header-6:not(.cm-active) .cm-header::before,
+h6::before
+{
+    content: "H6 "
+}
+/*
+FIXME: select only the first occurrence of .cm-header inside HyperMD-header.
+The very first element are the hash-symbols, which are hidden if the line is not selected.
+We want the first occurrence of .cm-header, that is not .cm-formatting. Using
+the follwing does not work
+
+.HyperMD-header-1:not(.cm-active) .cm-header:first-of-type::before,
+.HyperMD-header-1:not(.cm-active) .cm-header:first-child::before,
+.HyperMD-header-1:not(.cm-active) .cm-header:not(.cm-formatting):first-child::before
+.HyperMD-header-1:not(.cm-active) .cm-header:not(.cm-formatting):first-of-type::before
