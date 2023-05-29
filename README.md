@@ -10,7 +10,7 @@ This repo contains css-snippets I use to make my obsidian a little bit prettier
 Before:
 
 <p align="center">
-<img src="resources/img_after.png" width="50%">
+<img src="resources/img_before.png" width="50%">
 </p>
   
 After:
