@@ -7,6 +7,8 @@ This repo contains css-snippets I use to make my obsidian a little bit prettier
 
 **Header-Indicators** adds indicators so that the headings can be better distinguished from each other.
 
+**Color-Title** sets the color of the notes title to the current accent color
+
 Before:
 
 <p align="center">
